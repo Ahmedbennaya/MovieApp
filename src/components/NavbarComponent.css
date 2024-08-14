@@ -1,0 +1,28 @@
+/* NavbarComponent.css */
+
+.custom-navbar {
+    background-color: #0c0002 !important;
+  }
+  
+  .custom-search-form {
+    max-width: 400px;
+  }
+  
+  .search-input {
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ced4da;
+  }
+  
+  .search-button {
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #ced4da;
+    border-left: none;
+    color: #fff;
+    background-color: #28a745;
+  }
+  
+  .search-button:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
