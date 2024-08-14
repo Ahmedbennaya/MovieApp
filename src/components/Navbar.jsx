@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container, Form, FormControl, Button } from 'react-bootstrap';
-import './NavbarComponent.css'; // Optional: Add custom styles if needed
+import './NavbarComponent.css'; 
 import Addmovie from './Addmovie';
 
 const NavbarComponent = ({ movies = [], onSearch = () => {} }) => {
@@ -10,7 +10,7 @@ const NavbarComponent = ({ movies = [], onSearch = () => {} }) => {
     const query = e.target.value.toLowerCase();
     setSearchQuery(query);
 
-    // Ensure `movies` is an array before filtering
+
     const filteredMovies = Array.isArray(movies) ? movies.filter(movie => 
       movie.Title.toLowerCase().includes(query)
     ) : [];
